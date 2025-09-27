@@ -5,6 +5,7 @@ unlabelled dataset
 solve problem of - cluster , association, dimeansion position
 
 cluster-  3 type kmems and kmens++ , dbscan,hierarnchy cluster
+
 dimenison position- PCa
 association-mba, aprovi
 
@@ -96,6 +97,22 @@ cluster type 2 : DBSCAN
 DESNITY based spatial clustering of app with noise
 
 
+
+
+HIERARCHICAL CLUSTER
+
+Aggromative : 
+
+take one one  clster node tree and add utp single cluster
+
+divisive  : OPPOSITIE divide one into pieces
+
+types of aggremeritive 
+
+1.min(single link)
+2.max(complete link)
+3.group average
+4. word
 
 
 
