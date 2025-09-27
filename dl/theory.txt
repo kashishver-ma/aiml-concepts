@@ -1,0 +1,130 @@
+dll :
+nural network inspired by human neuron
+
+artifical neural network- uses iterconnected nodes
+
+3 algorithms :
+
+ANN , CNN , RNN (recurent n n )
+
+artifical
+convolutional nn - images (take more time)
+Rnn - text-speech
+
+need GPU for this running
+
+deep learning vs machine learning
+
+1. ml : apply stastical algo
+   less time to train data, mode time
+
+application :
+cnn-compyer vision
+
+facial recog/img classif ;medicl img analysisis, rcog and tracking
+
+NlP: text understanding projects:
+spell corector , suggestion , emojis,text summary,
+
+Reinforcemen t learning - part of ml but need in dl
+instant thing giving
+
+use: game playing, robotics, control sytsem,trafic system
+
+biological like a tiny worker vs artifical neuron -perceptron or node or cell
+linear function activation function input w1....wn
+outputs
+
+dendrites-take input
+axon-travel it
+
+components of neural network:
+
+neurons: building block of neural network
+receive perfom and output
+
+activation function imp:
+convert non linear data to linear
+7 types:
+
+weights and bias:
+wwt represnt strength of connections btwn neuron and all model to adjust output
+
+use: without this model s node get die. to save it model perfomance enhance we need this
+
+optimise loss and acuracy increase
+
+Feedforward neural network:
+feedforward propogation: all thing we put nd get result
+
+backwardpropagation: if model acuracy is down then do this, uit do weight nd bias value update krega and loss minimisatuon and increase accuracy
+
+\layers:
+3 layer input, hidden proces,output-result
+
+Loss functions:
+
+dif btwn predcicte abd actual target
+
+gradient descent-optimiser to min loss
+
+////////////////////////////////////////////////////////////
+
+
+activation functions: - forward propogation
+
+types:
+
+sigmoid: rel to logiscti regresion 0 or 1
++ve or negitive hai ya ne eg yes or no
+
+curve- s shaped
+
+1/1+epower -z
+z=input wt +bias
+
+
+use:
+in output lyer binary classification
+
+diff activtn function for diff problm 
+
+2. tan h
+
+output rng -1 to +1  
+f(x)=epowerx-e power -x)/
+
+used in hiden layer
+drawback- vanishing gradient problm ??? imp how to overcome this
+
+complexity is high for this
+
+
+3. relu function : rectifies linear unit
+
+used in linear or input linear
+max(0,x);
+
+x is bias and wt
+
+vlue 0 to inf
+
+ if x =0 then ? node use 
+node die
+ dead neuron problm and brain damange 
+
+ 3 variant - leaky, parametric ,explonentiral  formula..
+
+ 7.softmax:
+
+ if u have multiple classes  classificationsigmoid binary
+
+
+
+
+
+
+
+
+
+

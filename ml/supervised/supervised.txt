@@ -21,11 +21,15 @@ take dataset from kaggle and filter it
 
 # supervised have columns dependednt
 insurenece and 
-adaboost and random forest apply
+random forest apply regression
+charges predict-regression
 
 loan aproval-csv+jupiter+model
 
+xg BOST ND CLASIFIER + regression
+
 customer-folder file csv
+
 
 ##interview imp: 
 
