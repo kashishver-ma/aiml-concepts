@@ -101,7 +101,7 @@ DESNITY based spatial clustering of app with noise
 
 HIERARCHICAL CLUSTER
 
-Aggromative : 
+algoomerative : 
 
 take one one  clster node tree and add utp single cluster
 
