@@ -1,0 +1,40 @@
+
+means square error = 
+
+1/n sigma (predicted vlue-actual)^2
+
+MAE =
+
+huber loss =mse+mae
+
+matrix technique -req problm ki error finding
+
+
+for classification :
+
+suport vector machine two type  : linear non linear
+
+
+kaggle website certificate 
+take dataset from kaggle and filter it
+
+
+# supervised have columns dependednt
+insurenece and 
+adaboost and random forest apply
+
+loan aproval-csv+jupiter+model
+
+customer-folder file csv
+
+##interview imp: 
+
+hyperperatery- by changing this we can shift accuracy
+how we can get to know whihc value will be best for accuracy
+
+hyperparameter tuning is used to find this value - 5types main 2 
+grid search cv :
+ drawback- do much calculation cpu power
+
+random search cv: automatically chose one and give best parater value
+

@@ -1,0 +1,113 @@
+unsupervised
+
+unlabelled dataset
+
+solve problem of - cluster , association, dimeansion position
+
+cluster-  3 type kmems and kmens++ , dbscan,hierarnchy cluster
+dimenison position- PCa
+association-mba, aprovi
+
+1. cluster:
+
+group of similar class 
+
+
+kmens and kmens++ : used to solve clustering problem
+
+k= no. of clusters
+
+one cluster has centroid-center position
+k=1
+
+3 cluster 3 centroid 
+k=3
+
+
+say eg: 
+ x-y plane
+
+ red cluster (a)
+ blue cluster (b)
+ brown cluster (c) 
+
+ distance calculation : euclediean method  sqrt. (x2-x1)^2+(y2-y1)^2
+ 4 formule for distance 
+ google map use which method to cal distance ?
+
+ As data added :  shape of cluster changes 
+
+ knen : k nearest neighbours 
+
+ drawback of kmens:  if point come out of cluster(like outliers)
+
+ how will u define value of k ??
+ how many cluster?
+
+ WCSS - within cluster sum of square
+
+1. intracluster distance = from centeroid to circum of cluster
+
+2. inter cluster distance = from cetroid of oe cluster to cir of other cluster (Datapoint)
+
+inhertia  = wcss= sigma  wcss
+wcss= (c,x)^2
+
+
+ELBOW METHOD:
+
+wcss vs k
+
+as wcss increase k dec inversly propositional
+
+Elbow point =  point from where k value remia constant even if u change wcss
+
+
+UNSUPERVISED MODEL DURATION TECHNIQUE : 
+
+# DUMM INDEX AND SILHONTE SCORE
+
+dumm index  = increase cluster / decrease intra cluster dis will lead to higher accuracy
+
+silhonte score : 
+
+ss=
+if ss=1 model well
+ss=-1 wronf
+ss=0 okok
+
+intercluster distance = sepration distance in ss (b) 
+a =intra cluster dis
+
+formuala= (b-a)/ma(a,b)
+
+if a==b overall 0
+if a> b -1 
+if b>a = 1
+
+kmens++ :
+
+
+
+
+
+cluster type 2 : DBSCAN
+
+DESNITY based spatial clustering of app with noise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

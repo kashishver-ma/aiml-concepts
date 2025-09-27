@@ -1,0 +1,157 @@
+copy and deep copy
+gate method
+operator
+
+
+machine learning-> learning --> data -->
+
+numppy & pandas & matplotlib & cborn (visualisation)
+
+matplot-
+seaborn- adv version of matplotlib,advance graphs
+skikitlearn- ml
+tensor flow-keras model-deep learning ( )
+generative learning -> req libr (lan chain and lan graph) --?llm
+lan graph-> update version of lanchaain
+
+(large lang. model)
+
+
+24-09-25
+
+pandas-data handle,filter, encoding, 
+
+catergorial data-numerical data for model calculation
+
+remove dublicate value (model fail)
+remove null value
+
+
+
+su[erviser learning concept] : 
+
+classification- + or -ver divide
+reggression -  price inc or dec
+
+we have old bike data (price)
+we predict new price 
+
+25-09-2025
+
+3d img= 3d vector (magnitutde+dire)
+scalar=single value with only magnitutde
+
+matrix multi: 
+
+col(A) , row(B) = result =AB
+deep learning-forward proogation:
+
+
+properties:
+
+ab !=Aabc=Aabc
+
+
+eigen values and eigen vectos: 
+we have data set and it have unnecessary columns
+then we need Pc principle component analysis (ALgo)
+
+more col more dimenion more cople acuracy down
+
+therefore need pca
+
+eigen values= variance explained
+
+eg: dimentionally reduction in high dimentional dataset
+
+eg bike data  name and city no need columns
+
+
+PRINCIPLE COMPONENT ANALYSIS: 
+
+STEP1: STANDARDISE FEATURES
+STEP2: COMPUTE COVARIANCE matrix
+STEP3 : FIND EIGN VALUES AND EIGEN vector
+STEP4 : SELECT TOP K COMPONENETS
+
+ML EX: REDUCTION FEATURE IN IMG RECOGNISATION TASK
+
+PROBABILITY:
+
+BIAS THEORM  - 
+
+
+-NROMAL DISTRIBUTION
+BINOMIAL DISTRIBUTIONPOISSON DISTRIBUTIONUNIFORM 
+UNIFORM DISTRIBUTION
+
+VARIANCE- spread of data around mean use: feature scaling varinace in bias-variance tradeoff
+underfiting -  how to fix: 
+overfiting -  
+outlier- same range but one comes exceptionally different
+
+
+sd: sq root 
+
+BAYES THEOREM:
+
+conditional probb : P(a/b)=p(anb)/p(b)
+bayes thoerem p(a/b)
+
+SAMPLING:;
+
+proces of selecting subset from population
+type: random, stratifies.systematic
+
+eg: train test -u train model an ddidvide data in two parts one for training an done for tesing
+,booststraping- 
+
+,bagging/ensemble methods
+
+validation-  u train the whole model and now u wnt to booststrape it 
+
+
+-------------------------------------------------
+|   |                                                      |
+|   |                                                    |
+|   |                                                   | 
+.........................................................
+
+half test half training
+
+
+Central limit thoerem (CLT)
+
+accuuracy,precision,error rate 
+model evalution
+
+confusion matric- how many corect gues nd many glt
+
+
+functions and graphs:
+
+7 type of acuration functionssigmod reu tash
+
+GRADIENT AND CHAIN RULE: IMP 
+
+FORWARD PROPOGATION,BKWARD PROPOGATION
+
+GRADIENT -VECTOR OF PAPRTIAL DERIVATIONS,SHOW DIRECTION OF STEPEST ASCENT
+CHAIN RULE: DERIVATIVE OF COMPOSITE functions
+ML EG: 
+
+
+
+data splitting-
+testing and training
+test1 testb train a train B
+equal parts divideshape tell 
+
+
+
+#kaggal website - for datas set
+
+
+
+
+
