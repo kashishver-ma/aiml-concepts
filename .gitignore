@@ -1,0 +1,24 @@
+# Python cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+env/
+venv/
+*.env
+
+# Large model/data files (use Git LFS instead)
+*.lb
+*.h5
+*.pkl
+*.pt
+*.ckpt
+
+# OS files
+.DS_Store
+Thumbs.db
