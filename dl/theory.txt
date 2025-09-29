@@ -283,7 +283,68 @@ FROM OPTIMISER:  backwardpropagation
 
 
 
+....................................................
 
+
+practical of dl:
+
+tensort flow - no weak connections
+
+
+...............................................................................
+
+
+gradient descent - change in x / change in ya
+loss- single data losscost-full data lose
+
+gradient descent change value of x,y 
+
+we get a global minima in this where losee in least and eficiency highest
+
+ADAM: 
+
+
+MOMENTUM OPTIMISER- OPTIMISER REVOLVE AROUND LOC minima
+nag (MOM OPTIMISER)
+
+GRADIENT descent
+ADAM- GO DIRECLTY ON GLOBAL minima
+
+................................................................
+
+LOSS: 
+
+CALCULATE LOSS 
+loss function
+
+regression- mse mae huber loss
+classification - 
+binary cross-entropy loss
+log loss-cross entropy 
+category cross-entropy loss'
+sparse category-entrogy
+sv
+
+........................................................................
+model evalution technique() :
+check how right it is predicting 
+
+1. confusion matrix: 
+
+TP: true positive
+if model corona, actual corona - check
+
+TN: true negitive
+nhi tha or model ne b n btaya
+
+FP : actual nhi tha model ne  btadia hai  (tensn m marjayga)
+
+FN: actual m tha model ne nhi btaya 
+
+FP and FN - tricky condition
+
+
+used for classification problm
 
 
 
