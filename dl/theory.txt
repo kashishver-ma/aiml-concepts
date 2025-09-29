@@ -1,3 +1,18 @@
+ai-ml-dl
+
+ml-subset of ai
+model traiin for subsequent task
+
+maths is used to train
+
+3 parts- supervised unsuperwised semi -superwised
+
+dl-part of ml
+
+
+in ml- all mathsin dl-all neurons
+
+
 dll :
 nural network inspired by human neuron
 
@@ -12,6 +27,7 @@ convolutional nn - images (take more time)
 Rnn - text-speech
 
 need GPU for this running
+/............................................................................................................/
 
 deep learning vs machine learning
 
@@ -38,6 +54,8 @@ outputs
 dendrites-take input
 axon-travel it
 
+..........................................................................................................
+
 components of neural network:
 
 neurons: building block of neural network
@@ -45,22 +63,36 @@ receive perfom and output
 
 activation function imp:
 convert non linear data to linear
-7 types:
 
-weights and bias:
+
+7 types of activation function .
+
+
+weights and bias:  mistake is there when u create this is used to resolve
+
+
 wwt represnt strength of connections btwn neuron and all model to adjust output
 
 use: without this model s node get die. to save it model perfomance enhance we need this
 
 optimise loss and acuracy increase
 
-Feedforward neural network:
-feedforward propogation: all thing we put nd get result
+#Feedforward neural network/ feedforward propogation: all thing we put nd get result and there acuracy and loss is obtained.
 
-backwardpropagation: if model acuracy is down then do this, uit do weight nd bias value update krega and loss minimisatuon and increase accuracy
 
-\layers:
-3 layer input, hidden proces,output-result
+#backwardpropagation: if model acuracy is down then do this, uit do weight nd bias value update krega and loss minimisatuon and increase accuracy
+use to optimise the loss
+update value of wt. and bias
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+LAYERS : 
+
+
+3 layer input, 
+hidden - proces,
+output-result
+
 
 Loss functions:
 
@@ -68,56 +100,190 @@ dif btwn predcicte abd actual target
 
 gradient descent-optimiser to min loss
 
-////////////////////////////////////////////////////////////
+
+....................................................................................................................
 
 
 activation functions: - forward propogation
 
+activation function- convert non-linear into linear 
+
+
+8 types of acivation 
+
+1. sigmoid-logistic  (0/1) - use for binary division - used on output layer
+2. tanh
+3.relu
+4.leaky relu
+5.parametric relu
+6.exponential relu
+7.softmax
+8.linear
+
+
+
+
 types:
 
-sigmoid: rel to logiscti regresion 0 or 1
+1. sigmoid:
+
+ rel to logiscti regresion 0 or 1
 +ve or negitive hai ya ne eg yes or no
 
 curve- s shaped
 
-1/1+epower -z
+formula = 1/1+epower -z
 z=input wt +bias
+e value 2.71828
+
+if 3 input 3 wt.
+find submison and add bias
+now x pas through activation 
+
+
+def sigmoidal(z):
+
+ return  1/(1+math.exp(-z))
+
 
 
 use:
-in output lyer binary classification
 
-diff activtn function for diff problm 
+in output layer:
+binary classification
+
+diff activtn function for diff problem
+layers creation - effect it
+input layer- jitne input utne layer
+
 
 2. tan h
 
-output rng -1 to +1  
-f(x)=epowerx-e power -x)/
+output range -1 to +1 
 
-used in hiden layer
-drawback- vanishing gradient problm ??? imp how to overcome this
+f(x)=(e power x -e power -x)/
+
+used in hidden layer
+drawback- vanishing gradient problm ??? 
+challenge in training deep neural networks where gradients become extremely small as they are backpropagated through many layers
+
+while training model, loss increase and accuracy decrease - vanishing gradient problem
+
+imp how to overcome this ? need optimiser -graph
+
 
 complexity is high for this
 
 
-3. relu function : rectifies linear unit
+3. relu function :   imp
 
-used in linear or input linear
+rectified linear unit
+inputlayyer or hidden layer
+
+used in linear or input linear 
+
 max(0,x);
 
-x is bias and wt
+x is input and wt.
 
 vlue 0 to inf
 
- if x =0 then ? node use 
-node die
+ if x =0 then ? node use node die
  dead neuron problm and brain damange 
+
+ DEAD NEURON PROBLEM : 
+ x=0 output 0 
+ if neuron damage whole brain damage
+
+ Relu has three variants 
+ Leaky ReLU 
+ Parametric ReLU (PReLU) 
+ Exponential Linear Unit (ELU)
+
 
  3 variant - leaky, parametric ,explonentiral  formula..
 
- 7.softmax:
+ range- 0 to infinity
 
- if u have multiple classes  classificationsigmoid binary
+
+ 4.softmax: imp
+
+ used on output layer
+ 
+ use: multiple classification
+
+ formula : y input
+
+
+ if u have multiple classes  classification sigmoid binary
+
+
+5. linear activation function  :
+
+continuious increase
+used in output layery=mx+C
+
+
+.............................................................................................
+
+
+CREATING PERCEPTRON : 
+
+BILOGICAL NEURAL NETWORK REMAIN CONNECTED SIMILARLY WE CREATE AND CONNECT THEM
+
+SMALL DATASET-ml
+LARGE DATASET-dl
+
+
+APPLICATION : 
+
+1.COMPUTER VISION -OBJECT RECOGNISATION AND tracking
+
+2.NLP: 
+
+TEXT understanding
+SENTIMENT analysisis
+QUESTION ANSWER
+LANGUGAE GEN
+
+29-9-25. .........................................................................................
+
+REINFORCEMENT LEARNING :
+PART OF ml and dl
+
+agent and environment is there
+
+game playing, robotics,
+
+
+bias range and wt range : -1 to 1
+
+bias on each node
+
+no of wt=number of inputs
+one node wil have one bias
+
+
+.....................................................
+
+CREATION OF LAYERS
+
+input layer
+
+parameter : imput_dim
+activation : relu /. ./
+
+
+output layer - sigmoidal ./////////.////
+
+
+FROM INPUT TO OUTPUT LAYER- Feedforward
+
+FROM OPTIMISER:  backwardpropagation
+
+
+
+
 
 
 

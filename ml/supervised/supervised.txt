@@ -42,3 +42,4 @@ grid search cv :
 
 random search cv: automatically chose one and give best parater value
 
+https://miro.com/app/board/uXjVJDKat5o=/?share_link_id=940505791478
