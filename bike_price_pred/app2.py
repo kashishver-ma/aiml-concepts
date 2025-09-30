@@ -1,10 +1,12 @@
-#using linear regression model accurace 75%
+#using rf model accuracy 90+ %
+
 
 from flask import  Flask,render_template,request,url_for
 import joblib
 # libarry to load model joblib
 
-model=joblib.load('model.lb')
+model=joblib.load('rfmodel.lb')
+
 #linear reg accuracy 0.75 is not giving correct results
 
 #object to access properties of a class
@@ -73,6 +75,9 @@ def predict():
                         'MV': 21,
                         'Ideal': 22}
         brand_name_encode=bike_numbers[brand_name]
+
+        #order needed
+# kms_driven	owner	age 	power	brand
 
         lst=[[kms_driven_bike,owner_name,age_bike,power_bike,brand_name_encode]]  #sequence order
         print(lst)
