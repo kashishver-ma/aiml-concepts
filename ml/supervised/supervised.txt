@@ -33,6 +33,7 @@ customer-folder file csv
 
 ##interview imp: 
 
+
 hyperperatery- by changing this we can shift accuracy
 how we can get to know whihc value will be best for accuracy
 
