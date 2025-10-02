@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insurance Charges</title>
+  </head>
+  <body>
+    <div class="">
+      <!-- //age,sex,bmi,children,smoker,region,charges -->
+
+      <h1>Enter the required Fields </h1>
+      <form action="{{ url_for('predict') }}" method="post">
+        <label for="age">Age</label>
+        <input type="number" name="age" required />
+        <br />
+        <label for="bmi">BMI</label>
+        <input type="number" name="bmi" />
+        <br />
+        <label for="children">Children</label>
+        <input type="number" name="children" />
+        <br />
+        <label for="smoker">Smoker</label>
+        <select name="smoker" id="">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+        <br />
+        <button type="submit" onclick="console.log('click')">
+          Predict Price
+        </button>
+
+      </form>
+      <br><br>
+     <h3>💰 Predicted Insurance Charge:
+      {% if prediction is defined %}
+       {{ prediction }}</h3>
+      {% endif %}
+
+  </body>
+</html>
