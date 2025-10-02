@@ -17,6 +17,8 @@ app=Flask(__name__)
 
 # starting mein home page ayga
 
+predict_list=[]
+
 #create root using decorator
 
 @app.route("/")  #'/' home page
@@ -34,12 +36,17 @@ def contact():
 
 @app.route('/history')
 def history():
-    return render_template('history.html')
+    return render_template('history.html',history=predict_list)
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
 @app.route('/project')
 def project():
     
     return render_template('project.html')
+
 @app.route('/predict',methods=['GET','POST'])
 def predict():
     if request.method=='POST':
@@ -80,14 +87,29 @@ def predict():
 # kms_driven	owner	age 	power	brand
 
         lst=[[kms_driven_bike,owner_name,age_bike,power_bike,brand_name_encode]]  #sequence order
-        print(lst)
         pred=model.predict(lst)
+        
         pred = pred[0]
+        print('LIST' ,lst)
+         # pred = round(pred, 2)
+
+        user_data = (str(owner_name),str(brand_name),kms_driven_bike,age_bike,power_bike,pred)
+        print("SENT DATA" , user_data)
+        
+        print("updating history")
+        
+        predict_list.append({
+        'owner': owner_name,
+        'brand': brand_name,
+        'kms_driven': kms_driven_bike,
+        'age': age_bike,
+        'power': power_bike,
+        'prediction': pred
+    })
         print("predicted price is ", pred)
 
-        # pred = round(pred, 2)
-        user_data = (str(owner_name),str(brand_name),kms_driven_bike,age_bike,power_bike,pred)
-        print(user_data)
+        print("list update" ,predict_list)
+
         return render_template("project.html",prediction=str(pred))
 
     return render_template('project.html')
